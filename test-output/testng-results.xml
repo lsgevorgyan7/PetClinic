@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="10744" started-at="2019-11-05T02:59:09Z" finished-at="2019-11-05T02:59:20Z">
+  <suite name="Default suite" duration-ms="10452" started-at="2019-11-05T03:40:14Z" finished-at="2019-11-05T03:40:24Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="10744" started-at="2019-11-05T02:59:09Z" finished-at="2019-11-05T02:59:20Z">
+    <test name="Default test" duration-ms="10452" started-at="2019-11-05T03:40:14Z" finished-at="2019-11-05T03:40:24Z">
       <class name="TestNG_example.TestNG_example.example2">
-        <test-method status="PASS" signature="f()[pri:0, instance:TestNG_example.TestNG_example.example2@31ef45e3]" name="f" duration-ms="7429" started-at="2019-11-05T02:59:09Z" finished-at="2019-11-05T02:59:16Z">
+        <test-method status="PASS" signature="f()[pri:0, instance:TestNG_example.TestNG_example.example2@402a079c]" name="f" duration-ms="7046" started-at="2019-11-05T03:40:14Z" finished-at="2019-11-05T03:40:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- f -->
-        <test-method status="PASS" signature="f1()[pri:0, instance:TestNG_example.TestNG_example.example2@31ef45e3]" name="f1" duration-ms="3270" started-at="2019-11-05T02:59:16Z" finished-at="2019-11-05T02:59:20Z">
+        <test-method status="PASS" signature="f1()[pri:0, instance:TestNG_example.TestNG_example.example2@402a079c]" name="f1" duration-ms="3359" started-at="2019-11-05T03:40:21Z" finished-at="2019-11-05T03:40:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- f1 -->
