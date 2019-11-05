@@ -1,4 +1,4 @@
-package TestNG_example.TestNG_example;
+package test;
 
 import java.util.List;
 import java.util.concurrent.TimeUnit;
@@ -6,11 +6,10 @@ import java.util.concurrent.TimeUnit;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.testng.Assert;
+import org.testng.AssertJUnit;
 import org.testng.annotations.Test;
 
-public class example2 {
-
+public class myTests {
 	public String baseUrl="http://test.wendellsystems.com/";
 	public WebDriver driver ;
 	
@@ -42,7 +41,7 @@ public class example2 {
 	    System.setProperty("webdriver.chrome.driver", "C:\\chromedriver\\chromedriver.exe");
 		driver= new ChromeDriver();
 		driver.get(baseUrl);
-		Assert.assertTrue(true);
+		AssertJUnit.assertTrue(true);
 		driver.close();
 	}
 }
